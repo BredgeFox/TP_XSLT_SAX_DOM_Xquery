@@ -1,0 +1,3008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="xsl" href="tp.xsl"?>
+<!DOCTYPE secours-en-mer
+  SYSTEM "operations.dtd">
+<secours-en-mer>
+   <liste-cross>
+      <cross nom="Antilles-Guyane"
+             fuseau-horaire="America/Cayenne"
+             xml:id="Antilles-Guyane"
+             metropolitain="False"/>
+      <cross nom="Mayotte"
+             fuseau-horaire="Indian/Mayotte"
+             xml:id="Mayotte"
+             metropolitain="False"/>
+      <cross nom="La Reunion"
+             fuseau-horaire="Indian/Reunion"
+             xml:id="La_Reunion"
+             metropolitain="False"/>
+      <cross nom="Polynesie"
+             fuseau-horaire="Pacific/Tahiti"
+             xml:id="Polynesie"
+             metropolitain="False"/>
+      <cross nom="Nouvelle-Caledonie"
+             fuseau-horaire="Pacific/Noumea"
+             xml:id="Nouvelle-Caledonie"
+             metropolitain="False"/>
+      <cross nom="Gris-Nez"
+             fuseau-horaire="Europe/Paris"
+             xml:id="Gris-Nez"
+             metropolitain="True"/>
+      <cross nom="Corsen"
+             fuseau-horaire="Europe/Paris"
+             xml:id="Corsen"
+             metropolitain="True"/>
+      <cross nom="Jobourg"
+             fuseau-horaire="Europe/Paris"
+             xml:id="Jobourg"
+             metropolitain="True"/>
+      <cross nom="La Garde"
+             fuseau-horaire="Europe/Paris"
+             xml:id="La_Garde"
+             metropolitain="True"/>
+      <cross nom="etel"
+             fuseau-horaire="Europe/Paris"
+             xml:id="etel"
+             metropolitain="True"/>
+      <cross nom="Corse"
+             fuseau-horaire="Europe/Paris"
+             xml:id="Corse"
+             metropolitain="True"/>
+      <cross nom="Guyane"
+             fuseau-horaire="America/Guyana"
+             xml:id="Guyane"
+             metropolitain="False"/>
+      <cross nom="Martinique"
+             fuseau-horaire="America/Martinique"
+             xml:id="Martinique"
+             metropolitain="False"/>
+      <cross nom="Soulac"
+             fuseau-horaire="Europe/Paris"
+             xml:id="Soulac"
+             metropolitain="True"/>
+      <cross nom="Adge"
+             fuseau-horaire="Europe/Paris"
+             xml:id="Adge"
+             metropolitain="True"/>
+      <cross nom="Guadeloupe"
+             fuseau-horaire="America/Guadeloupe"
+             xml:id="Guadeloupe"
+             metropolitain="False"/>
+   </liste-cross>
+   <liste-opérations>
+      <opération operation_id="-132160"
+                 xml:id="Antilles-Guyane.2021.1084"
+                 type="SAR">
+         <jour date="2021-10-27"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-27T14:16:00Z"
+               fin-opération="2021-10-27T18:00:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC SARSAT COSPAS 406"
+                 categorie="Autorite civile française à terre"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Pêche"
+                      categorie="Pêche"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1084"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Guadeloupe"
+                    latitude="16.3167"
+                    longitude="-61.7167"/>
+      </opération>
+      <opération operation_id="-132153" xml:id="La.Reunion.2021.158" type="MAS">
+         <jour date="2021-10-26"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-25T20:03:00Z"
+               fin-opération="2021-10-26T11:45:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Panne de carburant</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="4" direction="360" categorie="nord"/>
+         <bilan-humain categorie="Autre" resultat="Personne assistee" nombre="5"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &gt; 8m"
+                      categorie="Plaisance"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="158"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="27500"
+                    distance_cote_milles_nautiques="14.85"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-20.7712"
+                    longitude="55.8723"/>
+      </opération>
+      <opération operation_id="-132152" xml:id="La.Reunion.2021.159" type="SAR">
+         <jour date="2021-10-26"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               reception-alerte="2021-10-26T02:14:00Z"
+               fin-opération="2021-10-26T04:30:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC Sarsat – Cospas"
+                 categorie="Autorite civile française à terre"/>
+         <liste-flotteurs/>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="159"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation zone_resposabilite="Responsabilite française"/>
+      </opération>
+      <opération operation_id="-132149"
+                 xml:id="Antilles-Guyane.2021.1079"
+                 type="DIV">
+         <jour date="2021-10-25"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-25T14:30:00Z"
+               fin-opération="2021-10-25T19:13:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Perdu___Coule"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="83f2228e0d05440b20450db82496ae600ee5af35"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1079"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="100"
+                    distance_cote_milles_nautiques="0.05"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Guadeloupe"
+                    latitude="16.2243"
+                    longitude="-61.5533"/>
+      </opération>
+      <opération operation_id="-132148"
+                 xml:id="Antilles-Guyane.2021.1077"
+                 type="MAS">
+         <jour date="2021-10-24"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-24T20:56:00Z"
+               fin-opération="2021-10-24T21:57:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie electrique</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF phonie"
+                 qui="Navire de plaisance"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="499fa562178de49fdc6d2dde626fb3af1a025524"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1077"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.5225"
+                    longitude="-61.0948"/>
+      </opération>
+      <opération operation_id="-132147" xml:id="Mayotte.2021.136" type="SAR">
+         <jour date="2021-10-24"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-24T15:52:00Z"
+               fin-opération="2021-10-24T19:48:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Malade EvaSan</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Marine nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <vent force="3" direction="90" categorie="est"/>
+         <bilan-humain categorie="Clandestin" resultat="Personne assistee" nombre="26"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Mayotte"
+                       numero-sitrep="136"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="25100"
+                    distance_cote_milles_nautiques="13.55"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Mayotte"
+                    latitude="-12.8907"
+                    longitude="44.8397"/>
+      </opération>
+      <opération operation_id="-132146"
+                 xml:id="Antilles-Guyane.2021.1076"
+                 type="MAS">
+         <jour date="2021-10-24"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-24T17:25:00Z"
+               fin-opération="2021-10-24T20:13:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="b44517df2692ae55cc4948efe852bbaa2e327da1"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1076"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="400"
+                    distance_cote_milles_nautiques="0.22"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Guyane"
+                    latitude="4.8752"
+                    longitude="-52.2352"/>
+      </opération>
+      <opération operation_id="-132145" xml:id="La.Reunion.2021.156" type="MAS">
+         <jour date="2021-10-24"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-24T09:24:00Z"
+               fin-opération="2021-10-24T11:11:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="1" direction="330" categorie="nord-ouest"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="42ac0e81c1916b686171f0a43f450de46842a5f1"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="156"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="5600"
+                    distance_cote_milles_nautiques="3.02"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Reunion"
+                    latitude="-21.1408"
+                    longitude="55.2078"/>
+      </opération>
+      <opération operation_id="-132143"
+                 xml:id="Antilles-Guyane.2021.1075"
+                 type="SAR">
+         <jour date="2021-10-23"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-23T20:56:00Z"
+               fin-opération="2021-10-24T01:02:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Sans avarie inexperience</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Autre" resultat="Personne secourue" nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Canoë / Kayak / Aviron"
+                      categorie="Loisir_nautique"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1075"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="2000"
+                    distance_cote_milles_nautiques="1.08"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Guyane"
+                    latitude="4.9268"
+                    longitude="-52.2462"/>
+      </opération>
+      <opération operation_id="-132142" xml:id="La.Reunion.2021.155" type="SAR">
+         <jour date="2021-10-23"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-23T14:26:00Z"
+               fin-opération="2021-10-23T15:27:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Famille / Proche"
+                 categorie="Organisme ou personne privee"/>
+         <vent force="2" direction="45" categorie="nord-est"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="155"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Port et accès"
+                    departement="Reunion"
+                    latitude="-20.9427"
+                    longitude="55.2823"/>
+      </opération>
+      <opération operation_id="-132141"
+                 xml:id="Antilles-Guyane.2021.1072"
+                 type="SAR">
+         <jour date="2021-10-23"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-23T06:40:00Z"
+               fin-opération="2021-10-23T11:58:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="MF/HF ASN"
+                 qui="RCC et RSC"
+                 categorie="Autorite etrangère"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="4"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1072"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="3200"
+                    distance_cote_milles_nautiques="1.73"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Martinique"
+                    latitude="14.4333"
+                    longitude="-60.9333"/>
+      </opération>
+      <opération operation_id="-132140" xml:id="La.Reunion.2021.154" type="MAS">
+         <jour date="2021-10-23"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-23T07:11:00Z"
+               fin-opération="2021-10-23T08:08:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="2" direction="180" categorie="sud"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="3"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="e05200913df877f9b1ab60e8baaf4ad7552cf992"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="154"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="3100"
+                    distance_cote_milles_nautiques="1.67"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Reunion"
+                    latitude="-21.2565"
+                    longitude="55.2815"/>
+      </opération>
+      <opération operation_id="-132139"
+                 xml:id="Antilles-Guyane.2021.1071"
+                 type="SAR">
+         <jour date="2021-10-22"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-22T21:59:00Z"
+               fin-opération="2021-10-23T22:57:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Sans avarie inexperience</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="SAMU"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Perdu___Coule"
+                      type="Kitesurf"
+                      categorie="Loisir_nautique"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1071"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="200"
+                    distance_cote_milles_nautiques="0.11"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Guadeloupe"
+                    latitude="16.1987"
+                    longitude="-61.45"/>
+      </opération>
+      <opération operation_id="-132138"
+                 xml:id="Antilles-Guyane.2021.1070"
+                 type="SAR">
+         <jour date="2021-10-22"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-22T16:59:00Z"
+               fin-opération="2021-10-22T17:06:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Baignade</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="1"/>
+         <liste-flotteurs/>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1070"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Martinique"
+                    latitude="14.7333"
+                    longitude="-60.95"/>
+      </opération>
+      <opération operation_id="-132137" xml:id="Polynesie.2021.263" type="SAR">
+         <jour date="2021-10-12"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-12T22:11:00Z"
+               fin-opération="2021-10-13T01:56:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF ASN"
+                 qui="Navire de plaisance"
+                 categorie="Navire à la mer"/>
+         <vent force="4" direction="45" categorie="nord-est"/>
+         <liste-flotteurs/>
+         <coordination cross="Polynesie"
+                       numero-sitrep="263"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4186600"
+                    distance_cote_milles_nautiques="2260.58"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Polynesie"
+                    latitude="-16.7333"
+                    longitude="-151.4833"/>
+      </opération>
+      <opération operation_id="-132136"
+                 xml:id="Nouvelle-Caledonie.2021.182"
+                 type="SAR">
+         <jour date="2021-10-22"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-22T10:05:00Z"
+               fin-opération="2021-10-22T12:04:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC COSPAS-SARSAT"
+                 categorie="Autorite etrangère"/>
+         <vent force="3" direction="30" categorie="nord-est"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Navire de charge ou de servitude"
+                      categorie="Commerce"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Nouvelle-Caledonie"
+                       numero-sitrep="182"
+                       autorite="Autorite etrangère"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="6600900"
+                    distance_cote_milles_nautiques="3564.2"
+                    zone_resposabilite="Responsabilite etrangère"
+                    latitude="10.3868"
+                    longitude="107.0862"/>
+      </opération>
+      <opération operation_id="-132135"
+                 xml:id="Nouvelle-Caledonie.2021.181"
+                 type="SAR">
+         <jour date="2021-10-22"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               reception-alerte="2021-10-22T02:31:00Z"
+               fin-opération="2021-10-22T07:00:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC COSPAS-SARSAT"
+                 categorie="Autorite etrangère"/>
+         <vent force="4" direction="60" categorie="nord-est"/>
+         <liste-flotteurs/>
+         <coordination cross="Nouvelle-Caledonie"
+                       numero-sitrep="181"
+                       autorite="Autorite etrangère"
+                       seconde-autorite=""/>
+         <situation zone_resposabilite="Responsabilite etrangère"/>
+      </opération>
+      <opération operation_id="-132134"
+                 xml:id="Antilles-Guyane.2021.1067"
+                 type="SAR">
+         <jour date="2021-10-21"
+               jour="Jeudi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-22T02:35:00Z"
+               fin-opération="2021-10-22T05:24:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Transport sanitaire île-continent</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone fixe"
+                 qui="SAMU"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Autre" resultat="Personne secourue" nombre="1"/>
+         <liste-flotteurs/>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1067"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="215700"
+                    distance_cote_milles_nautiques="116.47"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Collectivite de Saint Martin"
+                    latitude="17.9777"
+                    longitude="-62.929"/>
+      </opération>
+      <opération operation_id="-132133"
+                 xml:id="Antilles-Guyane.2021.1065"
+                 type="SAR">
+         <jour date="2021-10-21"
+               jour="Jeudi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-21T16:16:00Z"
+               fin-opération="2021-10-21T16:18:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF ASN"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Navire de charge ou de servitude"
+                      categorie="Commerce"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1065"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="82100"
+                    distance_cote_milles_nautiques="44.33"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="17.0833"
+                    longitude="-62.0167"/>
+      </opération>
+      <opération operation_id="-132132"
+                 xml:id="Antilles-Guyane.2021.1064"
+                 type="MAS">
+         <jour date="2021-10-21"
+               jour="Jeudi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-21T14:38:00Z"
+               fin-opération="2021-10-21T16:48:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF phonie"
+                 qui="SNSM"
+                 categorie="Organisme ou personne privee"/>
+         <bilan-humain categorie="Pêcheur_français"
+                       resultat="Personne assistee"
+                       nombre="3"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="84a25536ade9c25e2f9fc7178173e9abf8eb3b27"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1064"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="2000"
+                    distance_cote_milles_nautiques="1.08"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.45"
+                    longitude="-60.9667"/>
+      </opération>
+      <opération operation_id="-132131" xml:id="Mayotte.2021.130" type="SAR">
+         <jour date="2021-10-17"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-17T13:30:00Z"
+               fin-opération="2021-10-19T15:39:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Organisme professionnel / Pêcheur"
+                 categorie="Organisme ou personne privee"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne disparue"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Perdu___Coule"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="a2337d9af59355205bc22fbc5b25631f71078654"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Mayotte"
+                       numero-sitrep="130"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="42900"
+                    distance_cote_milles_nautiques="23.16"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-12.2833"
+                    longitude="45.2333"/>
+      </opération>
+      <opération operation_id="-132130"
+                 xml:id="Antilles-Guyane.2021.1066"
+                 type="SAR">
+         <jour date="2021-10-21"
+               jour="Jeudi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-21T17:51:00Z"
+               fin-opération="2021-10-21T18:37:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs/>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1066"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Martinique"
+                    latitude="14.768"
+                    longitude="-61.1987"/>
+      </opération>
+      <opération operation_id="-132128" xml:id="Mayotte.2021.135" type="SAR">
+         <jour date="2021-10-21"
+               jour="Jeudi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-21T12:53:00Z"
+               fin-opération="2021-10-21T14:00:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Malade EvaSan</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Marine nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <vent force="3" direction="60" categorie="nord-est"/>
+         <bilan-humain categorie="Clandestin" resultat="Personne secourue" nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Mayotte"
+                       numero-sitrep="135"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="11600"
+                    distance_cote_milles_nautiques="6.26"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Mayotte"
+                    latitude="-12.765"
+                    longitude="45.4053"/>
+      </opération>
+      <opération operation_id="-132127" xml:id="La.Reunion.2021.153" type="SAR">
+         <jour date="2021-10-21"
+               jour="Jeudi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-21T14:35:00Z"
+               fin-opération="2021-10-21T15:00:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Signal pyrotechnique"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <vent force="3" direction="60" categorie="nord-est"/>
+         <liste-flotteurs/>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="153"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Reunion"
+                    latitude="-21.0428"
+                    longitude="55.252"/>
+      </opération>
+      <opération operation_id="-132126" xml:id="Polynesie.2021.277" type="SAR">
+         <jour date="2021-10-20"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-20T23:34:00Z"
+               fin-opération="2021-10-21T00:53:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="4" direction="90" categorie="est"/>
+         <bilan-humain categorie="Marin_etranger"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Pêche"
+                      categorie="Pêche"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="277"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="7312600"
+                    distance_cote_milles_nautiques="3948.49"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-16.1"
+                    longitude="-121.1833"/>
+      </opération>
+      <opération operation_id="-132125" xml:id="Polynesie.2021.266" type="MAS">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-14T04:04:00Z"
+               fin-opération="2021-10-15T14:39:00Z"/>
+         <evenement categorie="Accidents de navire">Abordage</evenement>
+         <alerte pourquoi=""
+                 moyen="Autre signal reglementaire"
+                 qui="Armateur"
+                 categorie="Organisme ou personne privee"/>
+         <vent force="3" direction="45" categorie="nord-est"/>
+         <bilan-humain categorie="Pêcheur_français"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="8"/>
+         <liste-flotteurs>
+            <flotteur no="2"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="fab04dae58a5392191f19a0fa2d9bc6947c816a4"
+                      pavillon="Français"/>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="f529c898adf013dbc93b9eee0469b5e2ea3c3a49"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="266"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4847400"
+                    distance_cote_milles_nautiques="2617.39"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-15.25"
+                    longitude="-145.5"/>
+      </opération>
+      <opération operation_id="-132124" xml:id="Mayotte.2021.134" type="SAR">
+         <jour date="2021-10-20"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-20T03:56:00Z"
+               fin-opération="2021-10-20T05:30:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Malade EvaSan</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Marine nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <vent force="0" direction="1" categorie="nord"/>
+         <bilan-humain categorie="Clandestin" resultat="Personne assistee" nombre="27"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Mayotte"
+                       numero-sitrep="134"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="3300"
+                    distance_cote_milles_nautiques="1.78"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Mayotte"
+                    latitude="-12.607"
+                    longitude="45.0307"/>
+      </opération>
+      <opération operation_id="-132123"
+                 xml:id="Antilles-Guyane.2021.1058"
+                 type="MAS">
+         <jour date="2021-10-18"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-18T20:24:00Z"
+               fin-opération="2021-10-20T02:03:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Autre moyen d'alerte"
+                 qui="Port"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Marin_etranger"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="20"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Navire de charge ou de servitude"
+                      categorie="Commerce"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1058"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="238100"
+                    distance_cote_milles_nautiques="128.56"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Guadeloupe"
+                    latitude="17.7283"
+                    longitude="-59.2915"/>
+      </opération>
+      <opération operation_id="-132122"
+                 xml:id="Antilles-Guyane.2021.1062"
+                 type="SAR">
+         <jour date="2021-10-19"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-19T23:27:00Z"
+               fin-opération="2021-10-20T00:36:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs/>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1062"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Martinique"
+                    latitude="14.5"
+                    longitude="-61.0833"/>
+      </opération>
+      <opération operation_id="-132121"
+                 xml:id="Antilles-Guyane.2021.1061"
+                 type="SAR">
+         <jour date="2021-10-19"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-19T15:55:00Z"
+               fin-opération="2021-10-19T17:48:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC Sarsat – Cospas"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Autre aeronef"
+                      categorie="Aeronef"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1061"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="455900"
+                    distance_cote_milles_nautiques="246.17"
+                    zone_resposabilite="Responsabilite etrangère"
+                    latitude="6.8383"
+                    longitude="-58.1417"/>
+      </opération>
+      <opération operation_id="-132120" xml:id="Polynesie.2021.275" type="MAS">
+         <jour date="2021-10-18"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-18T21:55:00Z"
+               fin-opération="2021-10-19T06:36:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Autre moyen d'alerte"
+                 qui="Marine nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <vent force="2" direction="45" categorie="nord-est"/>
+         <bilan-humain categorie="Marin_etranger"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="23"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Navire de charge ou de servitude"
+                      categorie="Commerce"
+                      immatriculation="d5c85731deb8a6e1396ff29c8528931066ab40ea"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="275"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="5269200"
+                    distance_cote_milles_nautiques="2845.14"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="10.8"
+                    longitude="-156.3833"/>
+      </opération>
+      <opération operation_id="-132119" xml:id="Polynesie.2021.274" type="DIV">
+         <jour date="2021-10-17"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-18T02:13:00Z"
+               fin-opération="2021-10-19T15:50:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Autre moyen d'alerte"
+                 qui="Armateur"
+                 categorie="Organisme ou personne privee"/>
+         <vent force="4" direction="45" categorie="nord-est"/>
+         <bilan-humain categorie="Pêcheur_français"
+                       resultat="Personne assistee"
+                       nombre="4"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="1003a7f5b793ee530d86c6010c36b7d513b5cb53"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="274"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="6103300"
+                    distance_cote_milles_nautiques="3295.52"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="13.8167"
+                    longitude="-148.9"/>
+      </opération>
+      <opération operation_id="-132118" xml:id="Mayotte.2021.132" type="SAR">
+         <jour date="2021-10-19"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-19T06:15:00Z"
+               fin-opération="2021-10-19T08:44:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Blesse EvaSan</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Marine nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <bilan-humain categorie="Clandestin" resultat="Personne assistee" nombre="28"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Mayotte"
+                       numero-sitrep="132"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="7500"
+                    distance_cote_milles_nautiques="4.05"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Mayotte"
+                    latitude="-12.6837"
+                    longitude="44.9617"/>
+      </opération>
+      <opération operation_id="-132117" xml:id="Mayotte.2021.133" type="MAS">
+         <jour date="2021-10-19"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-19T08:06:00Z"
+               fin-opération="2021-10-19T11:47:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="2" direction="180" categorie="sud"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="4"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="1364944e4317828087fdf18e2067a1de56a01b30"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Mayotte"
+                       numero-sitrep="133"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4700"
+                    distance_cote_milles_nautiques="2.54"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Mayotte"
+                    latitude="-12.5945"
+                    longitude="45.0265"/>
+      </opération>
+      <opération operation_id="-132116"
+                 xml:id="Nouvelle-Caledonie.2021.180"
+                 type="SAR">
+         <jour date="2021-10-19"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               reception-alerte="2021-10-19T11:55:00Z"
+               fin-opération="2021-10-19T12:32:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <vent force="3" direction="30" categorie="nord-est"/>
+         <liste-flotteurs/>
+         <coordination cross="Nouvelle-Caledonie"
+                       numero-sitrep="180"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation zone_resposabilite="Plage et 300 mètres"
+                    departement="Nouvelle-Caledonie"/>
+      </opération>
+      <opération operation_id="-132115"
+                 xml:id="Antilles-Guyane.2021.1059"
+                 type="DIV">
+         <jour date="2021-10-18"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-18T21:30:00Z"
+               fin-opération="2021-10-18T23:30:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Rupture de mouillage</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="249c257a69e420af2dfe4da44449f93d4d5fab9c"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1059"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="300"
+                    distance_cote_milles_nautiques="0.16"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Martinique"
+                    latitude="14.543"
+                    longitude="-61.071"/>
+      </opération>
+      <opération operation_id="-132114"
+                 xml:id="Antilles-Guyane.2021.1060"
+                 type="SAR">
+         <jour date="2021-10-18"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-18T23:51:00Z"
+               fin-opération="2021-10-19T03:36:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Famille / Proche"
+                 categorie="Organisme ou personne privee"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne secourue"
+                       nombre="3"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="b37db48dbad66f4ed7cb50000165f5f993ab7c8a"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1060"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="22400"
+                    distance_cote_milles_nautiques="12.1"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="16.3067"
+                    longitude="-60.7925"/>
+      </opération>
+      <opération operation_id="-132113" xml:id="Mayotte.2021.131" type="SAR">
+         <jour date="2021-10-18"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-18T13:19:00Z"
+               fin-opération="2021-10-18T14:33:00Z"/>
+         <evenement categorie="Accidents de navire">Chavirement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="2" direction="130" categorie="sud-est"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne secourue"
+                       nombre="3"
+                       blesses="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Perdu___Coule"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Mayotte"
+                       numero-sitrep="131"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="400"
+                    distance_cote_milles_nautiques="0.22"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Mayotte"
+                    latitude="-12.8113"
+                    longitude="45.2898"/>
+      </opération>
+      <opération operation_id="-132112"
+                 xml:id="Antilles-Guyane.2021.1056"
+                 type="SAR">
+         <jour date="2021-10-18"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-18T14:13:00Z"
+               fin-opération="2021-10-18T14:38:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1056"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="217800"
+                    distance_cote_milles_nautiques="117.6"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="17.9983"
+                    longitude="-62.9333"/>
+      </opération>
+      <opération operation_id="-132111" xml:id="Polynesie.2021.273" type="SAR">
+         <jour date="2021-10-17"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-18T08:13:00Z"
+               fin-opération="2021-10-18T09:09:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Blesse avec soin sans deroutement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / satellite"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="4" direction="45" categorie="nord-est"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne secourue"
+                       nombre="1"
+                       blesses="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Navire à passagers"
+                      categorie="Commerce"
+                      immatriculation="d5c85731deb8a6e1396ff29c8528931066ab40ea"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="273"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="6211700"
+                    distance_cote_milles_nautiques="3354.05"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="16.0833"
+                    longitude="-149.5333"/>
+      </opération>
+      <opération operation_id="-132110" xml:id="La.Reunion.2021.152" type="SAR">
+         <jour date="2021-10-17"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-17T16:40:00Z"
+               fin-opération="2021-10-17T17:19:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF phonie"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <liste-flotteurs/>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="152"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Port et accès"
+                    departement="Reunion"
+                    latitude="-20.9372"
+                    longitude="55.2818"/>
+      </opération>
+      <opération operation_id="-132109" xml:id="Polynesie.2021.261" type="SAR">
+         <jour date="2021-10-11"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-11T16:27:00Z"
+               fin-opération="2021-10-12T22:46:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Autre autorite civile française à terre"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="3" direction="80" categorie="est"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne disparue"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Retrouve_après_recherche"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="d5c85731deb8a6e1396ff29c8528931066ab40ea"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="261"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="6800300"
+                    distance_cote_milles_nautiques="3671.87"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Polynesie"
+                    latitude="15.85"
+                    longitude="-142.3333"/>
+      </opération>
+      <opération operation_id="-132108" xml:id="Polynesie.2021.260" type="DIV">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-11T04:48:00Z"
+               fin-opération="2021-10-11T05:00:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Police"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="3" direction="10" categorie="nord"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Annexe"
+                      categorie="Autre"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="260"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="6061700"
+                    distance_cote_milles_nautiques="3273.06"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Polynesie"
+                    latitude="16.4833"
+                    longitude="-151.7667"/>
+      </opération>
+      <opération operation_id="-132107"
+                 xml:id="Antilles-Guyane.2021.1055"
+                 type="MAS">
+         <jour date="2021-10-17"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-17T14:37:00Z"
+               fin-opération="2021-10-17T18:39:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie electrique</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="6"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="a2cc4700a3cd638890783e80c37d6b21dabc00a9"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1055"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="1800"
+                    distance_cote_milles_nautiques="0.97"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.5478"
+                    longitude="-61.0968"/>
+      </opération>
+      <opération operation_id="-132106"
+                 xml:id="Antilles-Guyane.2021.1053"
+                 type="MAS">
+         <jour date="2021-10-17"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-17T09:22:00Z"
+               fin-opération="2021-10-17T17:30:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="d4a1d9b99dfc7c69af6f835deff4cfc2f9afed8a"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1053"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="176900"
+                    distance_cote_milles_nautiques="95.52"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="17.5567"
+                    longitude="-62.894"/>
+      </opération>
+      <opération operation_id="-132105"
+                 xml:id="Antilles-Guyane.2021.1054"
+                 type="SAR">
+         <jour date="2021-10-17"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-17T12:41:00Z"
+               fin-opération="2021-10-17T13:45:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC SARSAT COSPAS 406"
+                 categorie="Autorite civile française à terre"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Pêche"
+                      categorie="Pêche"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1054"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="6000"
+                    distance_cote_milles_nautiques="3.24"
+                    zone_resposabilite="Eaux territoriales"
+                    latitude="14.75"
+                    longitude="-60.8167"/>
+      </opération>
+      <opération operation_id="-132104" xml:id="Polynesie.2021.272" type="DIV">
+         <jour date="2021-10-16"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-17T05:53:00Z"
+               fin-opération="2021-10-17T06:03:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Homme à la mer</evenement>
+         <alerte pourquoi=""
+                 moyen="Autre signal reglementaire"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne secourue"
+                       nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Vehicule nautique à moteur"
+                      categorie="Loisir_nautique"
+                      immatriculation="d5c85731deb8a6e1396ff29c8528931066ab40ea"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="272"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4328000"
+                    distance_cote_milles_nautiques="2336.93"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Polynesie"
+                    latitude="-17.4833"
+                    longitude="-149.9"/>
+      </opération>
+      <opération operation_id="-132102"
+                 xml:id="Antilles-Guyane.2021.1051"
+                 type="SAR">
+         <jour date="2021-10-16"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-16T13:30:00Z"
+               fin-opération="2021-10-16T17:38:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs/>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1051"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="200"
+                    distance_cote_milles_nautiques="0.11"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Guadeloupe"
+                    latitude="16.25"
+                    longitude="-61.1788"/>
+      </opération>
+      <opération operation_id="-132101"
+                 xml:id="Antilles-Guyane.2021.1049"
+                 type="SAR">
+         <jour date="2021-10-16"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-16T11:30:00Z"
+               fin-opération="2021-10-17T03:34:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="798c0b1018b9a2ef0e188f27b04a46987477fddf"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1049"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4900"
+                    distance_cote_milles_nautiques="2.65"
+                    zone_resposabilite="Port et accès"
+                    departement="Guadeloupe"
+                    latitude="16.175"
+                    longitude="-61.3778"/>
+      </opération>
+      <opération operation_id="-132100"
+                 xml:id="Antilles-Guyane.2021.1048"
+                 type="DIV">
+         <jour date="2021-10-15"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-15T22:30:00Z"
+               fin-opération="2021-10-15T23:37:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire de plaisance"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="d50c7f5fe287d2b38d96437b7348d663c3b90cda"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1048"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="200"
+                    distance_cote_milles_nautiques="0.11"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.5042"
+                    longitude="-61.0905"/>
+      </opération>
+      <opération operation_id="-132099" xml:id="La.Reunion.2021.151" type="SAR">
+         <jour date="2021-10-16"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-16T03:35:00Z"
+               fin-opération="2021-10-16T12:35:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Malade EvaSan</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Autre organisme ou personne privee"
+                 categorie="Organisme ou personne privee"/>
+         <vent force="4" direction="50" categorie="nord-est"/>
+         <bilan-humain categorie="Marin_etranger" resultat="Personne secourue" nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Navire de charge ou de servitude"
+                      categorie="Commerce"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="151"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="180400"
+                    distance_cote_milles_nautiques="97.41"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-21.4408"
+                    longitude="53.5268"/>
+      </opération>
+      <opération operation_id="-132098"
+                 xml:id="Antilles-Guyane.2021.1050"
+                 type="DIV">
+         <jour date="2021-10-16"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="matinee"
+               reception-alerte="2021-10-16T11:47:00Z"
+               fin-opération="2021-10-16T12:15:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="CORG / Gendarmerie nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Annexe"
+                      categorie="Autre"
+                      immatriculation="10e6c86c5e17a712283a82621d99a5b1ee191567"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1050"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="100"
+                    distance_cote_milles_nautiques="0.05"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.8025"
+                    longitude="-61.2278"/>
+      </opération>
+      <opération operation_id="-132097" xml:id="Polynesie.2021.270" type="SAR">
+         <jour date="2021-10-15"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-16T05:00:00Z"
+               fin-opération="2021-10-16T06:26:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Homme à la mer</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="CORG / Gendarmerie nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <vent force="5" direction="90" categorie="est"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne secourue"
+                       nombre="8"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="270"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4164500"
+                    distance_cote_milles_nautiques="2248.65"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Polynesie"
+                    latitude="-16.5055"
+                    longitude="-151.7642"/>
+      </opération>
+      <opération operation_id="-132096" xml:id="Polynesie.2021.269" type="MAS">
+         <jour date="2021-10-15"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-16T04:00:00Z"
+               fin-opération="2021-10-16T16:40:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Autre moyen d'alerte"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="4" direction="45" categorie="nord-est"/>
+         <bilan-humain categorie="Marin_etranger"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="19"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Navire de charge ou de servitude"
+                      categorie="Commerce"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="269"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="6139000"
+                    distance_cote_milles_nautiques="3314.8"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-29.6167"
+                    longitude="-129.4667"/>
+      </opération>
+      <opération operation_id="-132095"
+                 xml:id="Nouvelle-Caledonie.2021.179"
+                 type="SAR">
+         <jour date="2021-10-16"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="True"
+               phase_journee="nuit"
+               reception-alerte="2021-10-16T08:49:00Z"
+               fin-opération="2021-10-16T09:39:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC COSPAS-SARSAT"
+                 categorie="Autorite etrangère"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Pêche"
+                      categorie="Pêche"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Nouvelle-Caledonie"
+                       numero-sitrep="179"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="3880200"
+                    distance_cote_milles_nautiques="2095.14"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="14.9182"
+                    longitude="170.217"/>
+      </opération>
+      <opération operation_id="-132094" xml:id="Polynesie.2021.267" type="SAR">
+         <jour date="2021-10-15"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-15T18:53:00Z"
+               fin-opération="2021-10-15T22:29:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC Sarsat – Cospas"
+                 categorie="Autorite civile française à terre"/>
+         <liste-flotteurs/>
+         <coordination cross="Polynesie"
+                       numero-sitrep="267"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="5934900"
+                    distance_cote_milles_nautiques="3204.59"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-15"
+                    longitude="-135"/>
+      </opération>
+      <opération operation_id="-132093" xml:id="Polynesie.2021.268" type="DIV">
+         <jour date="2021-10-15"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-15T20:23:00Z"
+               fin-opération="2021-10-16T03:19:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / satellite"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Pêcheur_français"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="6"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="16a075f9647a21625f85dc63b38b257cf6d5ac17"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="268"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4650200"
+                    distance_cote_milles_nautiques="2510.91"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Polynesie"
+                    latitude="-14.7833"
+                    longitude="-147.5667"/>
+      </opération>
+      <opération operation_id="-132092"
+                 xml:id="Antilles-Guyane.2021.1047"
+                 type="SAR">
+         <jour date="2021-10-15"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-15T20:06:00Z"
+               fin-opération="2021-10-15T20:28:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Vehicule nautique à moteur"
+                      categorie="Loisir_nautique"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1047"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="2700"
+                    distance_cote_milles_nautiques="1.46"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Guadeloupe"
+                    latitude="16.3548"
+                    longitude="-61.3017"/>
+      </opération>
+      <opération operation_id="-132091"
+                 xml:id="Antilles-Guyane.2021.1045"
+                 type="MAS">
+         <jour date="2021-10-15"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-15T11:27:00Z"
+               fin-opération="2021-10-15T14:29:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Immobilise dans engins / helice engagee</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF phonie"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="a82767148c4080b3401e23d496e8ab5ec2343b34"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1045"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="23100"
+                    distance_cote_milles_nautiques="12.47"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="14.219"
+                    longitude="-60.9923"/>
+      </opération>
+      <opération operation_id="-132090" xml:id="Polynesie.2021.265" type="SAR">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-14T02:48:00Z"
+               fin-opération="2021-10-14T05:30:00Z"/>
+         <evenement categorie="Accidents de navire">Abordage</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Autre autorite civile française à terre"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="3" direction="10" categorie="nord"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne secourue"
+                       nombre="4"
+                       blesses="4"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="Français"/>
+            <flotteur no="2"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Navire à passagers"
+                      categorie="Commerce"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="265"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4191900"
+                    distance_cote_milles_nautiques="2263.45"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Polynesie"
+                    latitude="-16.6467"
+                    longitude="-151.4567"/>
+      </opération>
+      <opération operation_id="-132089" xml:id="Polynesie.2021.264" type="SAR">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-13T19:50:00Z"
+               fin-opération="2021-10-14T03:14:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Malade avec deroutement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / satellite"
+                 qui="Autre autorite civile française à terre"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="4" direction="70" categorie="est"/>
+         <bilan-humain categorie="Pêcheur_français"
+                       resultat="Personne secourue"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="215e85ebe0574703fb0a2fd01920de3e6856b8ee"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="264"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4840200"
+                    distance_cote_milles_nautiques="2613.5"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-14.7333"
+                    longitude="-145.7333"/>
+      </opération>
+      <opération operation_id="-132088"
+                 xml:id="Antilles-Guyane.2021.1041"
+                 type="SAR">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-13T18:39:00Z"
+               fin-opération="2021-10-13T19:23:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC SARSAT COSPAS 406"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Pêcheur_français"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="94e46128bf68f946dc47ca663aa16a081ffb7862"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1041"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="19300"
+                    distance_cote_milles_nautiques="10.42"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Guadeloupe"
+                    latitude="16.321"
+                    longitude="-61.9833"/>
+      </opération>
+      <opération operation_id="-132087" xml:id="La.Reunion.2021.150" type="SAR">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-13T14:40:00Z"
+               fin-opération="2021-10-13T15:26:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="1" direction="90" categorie="est"/>
+         <liste-flotteurs/>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="150"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="500"
+                    distance_cote_milles_nautiques="0.27"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Reunion"
+                    latitude="-21.1582"
+                    longitude="55.2785"/>
+      </opération>
+      <opération operation_id="-132086"
+                 xml:id="Antilles-Guyane.2021.1040"
+                 type="SAR">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-13T15:02:00Z"
+               fin-opération="2021-10-13T16:00:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC Sarsat – Cospas"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Aeronef de tourisme"
+                      categorie="Aeronef"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1040"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="48100"
+                    distance_cote_milles_nautiques="25.97"
+                    zone_resposabilite="Responsabilite etrangère"
+                    latitude="4.055"
+                    longitude="-54.8183"/>
+      </opération>
+      <opération operation_id="-132085"
+                 xml:id="Antilles-Guyane.2021.1039"
+                 type="DIV">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-13T11:58:00Z"
+               fin-opération="2021-10-13T13:24:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Rupture de mouillage</evenement>
+         <alerte pourquoi=""
+                 moyen="Autre moyen d'alerte"
+                 qui="Port"
+                 categorie="Autorite civile française à terre"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="echoue"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="52266794805cf2f632d00fb8ba4f5a348a4c6ac2"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1039"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="205000"
+                    distance_cote_milles_nautiques="110.69"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Collectivite de Saint Barthelemy"
+                    latitude="17.9078"
+                    longitude="-62.8572"/>
+      </opération>
+      <opération operation_id="-132084"
+                 xml:id="Nouvelle-Caledonie.2021.178"
+                 type="DIV">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-12T22:06:00Z"
+               fin-opération="2021-10-13T00:35:00Z"/>
+         <evenement categorie="Accidents de navire">echouement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire administration civile"
+                 categorie="Navire à la mer"/>
+         <vent force="4" direction="170" categorie="sud"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="3"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="e029e8493e3e695657a6848229381ee55a3d6d6d"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Nouvelle-Caledonie"
+                       numero-sitrep="178"
+                       autorite="Prefet maritime"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="9000"
+                    distance_cote_milles_nautiques="4.86"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Nouvelle-Caledonie"
+                    latitude="-22.2927"
+                    longitude="166.2923"/>
+      </opération>
+      <opération operation_id="-132083"
+                 xml:id="Nouvelle-Caledonie.2021.177"
+                 type="SAR">
+         <jour date="2021-10-13"
+               jour="Mercredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               reception-alerte="2021-10-12T22:07:00Z"
+               fin-opération="2021-10-13T02:11:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="CORG / Gendarmerie nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <vent force="4" direction="170" categorie="sud"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="4"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Plaisance à moteur &gt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="ff2478ed4b6892541989dfbc632e66e19b8c4621"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Nouvelle-Caledonie"
+                       numero-sitrep="177"
+                       autorite="Prefet maritime"
+                       seconde-autorite=""/>
+         <situation zone_resposabilite="Eaux territoriales"
+                    departement="Nouvelle-Caledonie"/>
+      </opération>
+      <opération operation_id="-132082"
+                 xml:id="Nouvelle-Caledonie.2021.176"
+                 type="SAR">
+         <jour date="2021-10-11"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-11T08:45:00Z"
+               fin-opération="2021-10-13T00:48:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Blesse avec deroutement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / satellite"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="4" direction="40" categorie="nord-est"/>
+         <bilan-humain categorie="Pêcheur_français"
+                       resultat="Personne secourue"
+                       nombre="1"
+                       blesses="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Pêche"
+                      categorie="Pêche"
+                      immatriculation="152c693ecaa7ae6864fd6c91a74569208ab33b89"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Nouvelle-Caledonie"
+                       numero-sitrep="176"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="578500"
+                    distance_cote_milles_nautiques="312.37"
+                    zone_resposabilite="Responsabilite française"
+                    latitude="-20.1267"
+                    longitude="158.08"/>
+      </opération>
+      <opération operation_id="-132081"
+                 xml:id="Antilles-Guyane.2021.1038"
+                 type="SAR">
+         <jour date="2021-10-12"
+               jour="Mardi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-12T21:57:00Z"
+               fin-opération="2021-10-12T22:57:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC SARSAT COSPAS 406"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Marin_etranger"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Navire de charge ou de servitude"
+                      categorie="Commerce"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1038"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="570600"
+                    distance_cote_milles_nautiques="308.1"
+                    zone_resposabilite="Responsabilite etrangère"
+                    latitude="56.005"
+                    longitude="5"/>
+      </opération>
+      <opération operation_id="-132080" xml:id="Polynesie.2021.262" type="DIV">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-11T04:55:00Z"
+               fin-opération="2021-10-12T05:10:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="2" direction="90" categorie="est"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="262"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4382700"
+                    distance_cote_milles_nautiques="2366.47"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Polynesie"
+                    latitude="-17.8"
+                    longitude="-149.2833"/>
+      </opération>
+      <opération operation_id="-132079"
+                 xml:id="Antilles-Guyane.2021.1031"
+                 type="SAR">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-10T21:49:00Z"
+               fin-opération="2021-10-12T16:24:00Z"/>
+         <evenement categorie="Accidents de navire">echouement</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF ASN"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne secourue"
+                       nombre="4"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="d7000bf12e78514e14184a174f3eb5e4fc59e917"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1031"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="232500"
+                    distance_cote_milles_nautiques="125.54"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Collectivite de Saint Martin"
+                    latitude="18.1022"
+                    longitude="-63.0205"/>
+      </opération>
+      <opération operation_id="-132078"
+                 xml:id="Antilles-Guyane.2021.1034"
+                 type="DIV">
+         <jour date="2021-10-11"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-11T13:29:00Z"
+               fin-opération="2021-10-11T16:00:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Armateur"
+                 categorie="Organisme ou personne privee"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Retrouve_après_recherche"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="08e0d65d119ad6c0d173a68ebcd01e27c8467f76"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1034"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Martinique"
+                    latitude="14.605"
+                    longitude="-61.095"/>
+      </opération>
+      <opération operation_id="-132077" xml:id="La.Reunion.2021.149" type="SAR">
+         <jour date="2021-10-11"
+               jour="Lundi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-11T08:21:00Z"
+               fin-opération="2021-10-11T09:08:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="5" direction="135" categorie="sud-est"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs/>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="149"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Reunion"
+                    latitude="-21.3618"
+                    longitude="55.5278"/>
+      </opération>
+      <opération operation_id="-132076"
+                 xml:id="Antilles-Guyane.2021.1032"
+                 type="SAR">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               reception-alerte="2021-10-11T00:42:00Z"
+               fin-opération="2021-10-11T10:31:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC Sarsat – Cospas"
+                 categorie="Autorite civile française à terre"/>
+         <liste-flotteurs/>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1032"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation zone_resposabilite="Responsabilite française"/>
+      </opération>
+      <opération operation_id="-132075"
+                 xml:id="Antilles-Guyane.2021.1030"
+                 type="SAR">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-10T21:34:00Z"
+               fin-opération="2021-10-10T22:16:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Sans avarie en derive</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone fixe"
+                 qui="CODIS / SDIS / CTA"
+                 categorie="Autorite civile française à terre"/>
+         <bilan-humain categorie="Autre" resultat="Personne secourue" nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="2"
+                      resultat="Assiste"
+                      type="Kitesurf"
+                      categorie="Loisir_nautique"
+                      pavillon="Français"/>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Kitesurf"
+                      categorie="Loisir_nautique"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1030"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="202600"
+                    distance_cote_milles_nautiques="109.4"
+                    zone_resposabilite="Plage et 300 mètres"
+                    departement="Collectivite de Saint Barthelemy"
+                    latitude="17.9195"
+                    longitude="-62.7983"/>
+      </opération>
+      <opération operation_id="-132074"
+                 xml:id="Antilles-Guyane.2021.1029"
+                 type="DIV">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-10T16:36:00Z"
+               fin-opération="2021-10-10T21:14:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Rupture de mouillage</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="249c257a69e420af2dfe4da44449f93d4d5fab9c"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1029"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.5333"
+                    longitude="-61.05"/>
+      </opération>
+      <opération operation_id="-132073"
+                 xml:id="Antilles-Guyane.2021.1028"
+                 type="SAR">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-10T14:36:00Z"
+               fin-opération="2021-10-10T17:18:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie de l'appareil à gouverner</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF phonie"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne tiree d'affaire seule"
+                       nombre="2"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Difficulte_surmontee__reprise_de_route"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1028"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4700"
+                    distance_cote_milles_nautiques="2.54"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.6333"
+                    longitude="-61.1917"/>
+      </opération>
+      <opération operation_id="-132072" xml:id="La.Reunion.2021.148" type="SAR">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-10T05:11:00Z"
+               fin-opération="2021-10-10T05:43:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Plongee avec bouteille</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="1" direction="90" categorie="est"/>
+         <bilan-humain categorie="Autre" resultat="Personne secourue" nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="de1489a8a176ee607546332a95550491ad29bed6"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="148"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Port et accès"
+                    departement="Reunion"
+                    latitude="-21.0552"
+                    longitude="55.2228"/>
+      </opération>
+      <opération operation_id="-132071" xml:id="La.Reunion.2021.147" type="MAS">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-10T04:14:00Z"
+               fin-opération="2021-10-10T05:41:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF phonie"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <vent force="4" direction="90" categorie="est"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="7"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="144293bc656e427f3ed542a2b398ba475bb18df1"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="La_Reunion"
+                       numero-sitrep="147"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="600"
+                    distance_cote_milles_nautiques="0.32"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Reunion"
+                    latitude="-21.3592"
+                    longitude="55.5048"/>
+      </opération>
+      <opération operation_id="-132070"
+                 xml:id="Antilles-Guyane.2021.1027"
+                 type="DIV">
+         <jour date="2021-10-10"
+               jour="Dimanche"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="matinee"
+               reception-alerte="2021-10-10T13:55:00Z"
+               fin-opération="2021-10-12T14:07:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Rupture de mouillage</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="Temoin"
+                 categorie="Organisme ou personne privee"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Assiste"
+                      type="Plaisance à moteur &lt; 8m"
+                      categorie="Plaisance"
+                      immatriculation="e5f9fb26c81f9437cb0466d0dfdb5fccc6d760be"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1027"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="0"
+                    distance_cote_milles_nautiques="0"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Guadeloupe"
+                    latitude="16.2667"
+                    longitude="-61.5967"/>
+      </opération>
+      <opération operation_id="-132069" xml:id="Polynesie.2021.259" type="SAR">
+         <jour date="2021-10-09"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-10T07:05:00Z"
+               fin-opération="2021-10-10T07:44:00Z"/>
+         <evenement categorie="Accidents individuels à personnes">Chasse sous-marine</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone fixe"
+                 qui="COZ / Securite civile"
+                 categorie="Autorite civile française à terre"/>
+         <vent force="2" direction="10" categorie="nord"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Canoë / Kayak / Aviron"
+                      categorie="Loisir_nautique"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Polynesie"
+                       numero-sitrep="259"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="4383100"
+                    distance_cote_milles_nautiques="2366.69"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Polynesie"
+                    latitude="-17.85"
+                    longitude="-149.2667"/>
+      </opération>
+      <opération operation_id="-132068"
+                 xml:id="Antilles-Guyane.2021.1025"
+                 type="DIV">
+         <jour date="2021-10-09"
+               jour="Samedi"
+               weekend="True"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-09T17:18:00Z"
+               fin-opération="2021-10-09T19:34:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Autre evenement</evenement>
+         <alerte pourquoi=""
+                 moyen="VHF phonie"
+                 qui="Navire de plaisance"
+                 categorie="Navire à la mer"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Annexe"
+                      categorie="Autre"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1025"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="1200"
+                    distance_cote_milles_nautiques="0.65"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.4305"
+                    longitude="-60.8995"/>
+      </opération>
+      <opération operation_id="-132067"
+                 xml:id="Antilles-Guyane.2021.1022"
+                 type="SAR">
+         <jour date="2021-10-08"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="nuit"
+               reception-alerte="2021-10-08T22:37:00Z"
+               fin-opération="2021-10-09T00:53:00Z"/>
+         <evenement categorie="Fausses alertes">Toutes fausses alertes</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone mobile à terre"
+                 qui="CORG / Gendarmerie nationale"
+                 categorie="Autorite militaire française à terre"/>
+         <vent force="4" direction="88" categorie="est"/>
+         <bilan-humain categorie="Autre"
+                       resultat="Personne impliquee dans fausse alerte"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Plaisance à moteur &gt; 8m"
+                      categorie="Plaisance"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1022"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="700"
+                    distance_cote_milles_nautiques="0.38"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.4297"
+                    longitude="-60.894"/>
+      </opération>
+      <opération operation_id="-132066"
+                 xml:id="Nouvelle-Caledonie.2021.175"
+                 type="SAR">
+         <jour date="2021-10-08"
+               jour="Vendredi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="après-midi"
+               reception-alerte="2021-10-08T06:37:00Z"
+               fin-opération="2021-10-08T19:00:00Z"/>
+         <evenement categorie="Autres affaires necessitant operation">Incertitude</evenement>
+         <alerte pourquoi=""
+                 moyen="Balise de detresse"
+                 qui="MCC COSPAS-SARSAT"
+                 categorie="Autorite etrangère"/>
+         <vent force="3" direction="90" categorie="est"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Non_assiste__cas_de_fausse_alerte"
+                      type="Navire de charge ou de servitude"
+                      categorie="Commerce"
+                      pavillon="etranger"/>
+         </liste-flotteurs>
+         <coordination cross="Nouvelle-Caledonie"
+                       numero-sitrep="175"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="3341200"
+                    distance_cote_milles_nautiques="1804.1"
+                    zone_resposabilite="Responsabilite etrangère"
+                    latitude="40.4533"
+                    longitude="49.8717"/>
+      </opération>
+      <opération operation_id="-132065"
+                 xml:id="Antilles-Guyane.2021.1019"
+                 type="MAS">
+         <jour date="2021-10-07"
+               jour="Jeudi"
+               weekend="False"
+               jour_ferie="False"
+               vacances_scolaires="False"
+               phase_journee="dejeuner"
+               reception-alerte="2021-10-07T15:37:00Z"
+               fin-opération="2021-10-07T17:07:00Z"/>
+         <evenement categorie="Avaries non suivies d'accident navire">Avarie du système de propulsion</evenement>
+         <alerte pourquoi=""
+                 moyen="Telephone à la mer / GSM"
+                 qui="Navire implique"
+                 categorie="Navire à la mer"/>
+         <bilan-humain categorie="Plaisancier_français"
+                       resultat="Personne assistee"
+                       nombre="1"/>
+         <liste-flotteurs>
+            <flotteur no="1"
+                      resultat="Remorque"
+                      type="Plaisance à voile"
+                      categorie="Plaisance"
+                      immatriculation="5531c47d7f8b86cdea55307cc5675cbeb7e30172"
+                      pavillon="Français"/>
+         </liste-flotteurs>
+         <coordination cross="Antilles-Guyane"
+                       numero-sitrep="1019"
+                       autorite="Representant du gouvernement"
+                       seconde-autorite=""/>
+         <situation distance_cote_metres="400"
+                    distance_cote_milles_nautiques="0.22"
+                    zone_resposabilite="Eaux territoriales"
+                    departement="Martinique"
+                    latitude="14.4617"
+                    longitude="-60.8717"/>
+      </opération>
+</liste-opérations></secours-en-mer>

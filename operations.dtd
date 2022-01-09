@@ -1,0 +1,91 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT secours-en-mer (liste-cross,liste-opérations)>
+
+<!ELEMENT liste-cross (cross)+>
+
+<!ELEMENT cross EMPTY>
+<!ATTLIST cross
+  fuseau-horaire CDATA #REQUIRED
+  nom CDATA #REQUIRED
+  xml:id ID #REQUIRED
+  métropolitain (True|False) #REQUIRED>
+
+<!ELEMENT liste-opérations (opération)+>
+
+<!ELEMENT opération (jour,evenement,alerte,vent?,bilan-humain?,
+                     liste-flotteurs,mer?,coordination,situation)>
+<!ATTLIST opération
+  xml:id ID #REQUIRED
+  operation_id CDATA #REQUIRED
+  type (SAR|MAS|SUR|DIV) #IMPLIED>
+
+<!ELEMENT jour EMPTY>
+<!ATTLIST jour
+  date NMTOKEN #REQUIRED
+  fin-opération NMTOKEN #REQUIRED
+  jour (Lundi| Mardi| Mercredi| Jeudi| Vendredi| Samedi| Dimanche) #REQUIRED
+  jour_ferie (True|False) #REQUIRED
+  phase_journee (matinée| déjeuner| après-midi| nuit) #IMPLIED
+  réception-alerte NMTOKEN #REQUIRED
+  vacances_scolaires (True|False) #IMPLIED
+  weekend (True|False) #REQUIRED>
+
+<!ELEMENT evenement (#PCDATA)>
+<!ATTLIST evenement
+  catégorie CDATA #REQUIRED>
+
+<!ELEMENT alerte EMPTY>
+<!ATTLIST alerte
+  catégorie CDATA #REQUIRED
+  moyen CDATA #REQUIRED
+  pourquoi CDATA #IMPLIED
+  qui CDATA #REQUIRED>
+
+<!ELEMENT vent EMPTY>
+<!ATTLIST vent
+  catégorie (nord | nord-est | est | sud-est | sud | sud-ouest | ouest | nord-ouest) #IMPLIED
+  direction CDATA #IMPLIED
+  force CDATA #IMPLIED>
+
+<!ELEMENT bilan-humain EMPTY>
+<!ATTLIST bilan-humain
+  blessés CDATA '0'
+  catégorie (Autre | Plaisancier_français | Clandestin | Pêcheur_français | Commerce_français | Marin_étranger | Toutes_catégories) #REQUIRED
+  nombre CDATA '0'
+  résultat CDATA #REQUIRED>
+
+
+<!ELEMENT mer EMPTY>
+<!ATTLIST mer
+  categorie CDATA #IMPLIED
+  coefficient CDATA #IMPLIED
+  force CDATA #IMPLIED>
+
+<!ELEMENT coordination EMPTY>
+<!ATTLIST coordination
+  autorité CDATA #REQUIRED
+  cross IDREF #REQUIRED
+  numéro-sitrep CDATA #REQUIRED
+  prefecture_maritime CDATA #IMPLIED
+  seconde-autorité CDATA #REQUIRED>
+
+<!ELEMENT situation EMPTY>
+<!ATTLIST situation
+  latitude CDATA #IMPLIED
+  longitude CDATA #IMPLIED
+  distance_cote_metres CDATA #IMPLIED
+  distance_cote_milles_nautiques CDATA #IMPLIED
+  département CDATA #IMPLIED
+  zone_resposabilité CDATA #REQUIRED>
+
+<!ELEMENT liste-flotteurs (flotteur)*>
+
+<!ELEMENT flotteur EMPTY>
+<!ATTLIST flotteur
+  catégorie (Commerce | Pêche | Plaisance | Loisir_nautique | Aéronef | Autre) #REQUIRED
+  immatriculation CDATA #IMPLIED
+  no CDATA #REQUIRED
+  pavillon (Étranger | Français) #IMPLIED
+  résultat (Assisté | Côte_rejointe_par_ses_propres_moyens | Difficulté_surmontée__reprise_de_route | Non_assisté__cas_de_fausse_alerte | Non_renseigné | Perdu___Coulé | Remorqué | Retrouvé_après_recherche | Échoué) #REQUIRED
+  type CDATA #REQUIRED>

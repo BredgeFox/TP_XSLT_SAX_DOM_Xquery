@@ -1,0 +1,1 @@
+java -jar saxon9he.jar -xsl:XSLT.xsl -s:cross.xml > liste-cross.xml

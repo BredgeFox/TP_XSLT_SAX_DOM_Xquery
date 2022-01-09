@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE liste-cross SYSTEM 'operations.dtd'>
+<liste-cross>
+	<cross nom=Antilles-Guyane nb=238>
+		<lundi victimes=57/>
+		<mardi victimes=77/>
+		<mercredi victimes=40/>
+		<jeudi victimes=63/>
+		<vendredi victimes=81/>
+		<samedi victimes=121/>
+		<dimanche victimes=111/>
+	</cross>
+	<cross nom=Mayotte nb=26>
+		<lundi victimes=15/>
+		<mardi victimes=21/>
+		<mercredi victimes=8/>
+		<jeudi victimes=3/>
+		<vendredi victimes=11/>
+		<samedi victimes=17/>
+		<dimanche victimes=10/>
+	</cross>
+	<cross nom=La Réunion nb=532>
+		<lundi victimes=333/>
+		<mardi victimes=227/>
+		<mercredi victimes=266/>
+		<jeudi victimes=265/>
+		<vendredi victimes=296/>
+		<samedi victimes=322/>
+		<dimanche victimes=376/>
+	</cross>
+	<cross nom=Polynésie nb=488>
+		<lundi victimes=181/>
+		<mardi victimes=180/>
+		<mercredi victimes=207/>
+		<jeudi victimes=177/>
+		<vendredi victimes=176/>
+		<samedi victimes=215/>
+		<dimanche victimes=326/>
+	</cross>
+	<cross nom=Nouvelle-Calédonie nb=758>
+		<lundi victimes=171/>
+		<mardi victimes=208/>
+		<mercredi victimes=189/>
+		<jeudi victimes=156/>
+		<vendredi victimes=168/>
+		<samedi victimes=355/>
+		<dimanche victimes=493/>
+	</cross>
+	<cross nom=Gris-Nez nb=2574>
+		<lundi victimes=2176/>
+		<mardi victimes=1309/>
+		<mercredi victimes=1387/>
+		<jeudi victimes=1609/>
+		<vendredi victimes=1514/>
+		<samedi victimes=1691/>
+		<dimanche victimes=1661/>
+	</cross>
+	<cross nom=Corsen nb=6878>
+		<lundi victimes=1867/>
+		<mardi victimes=1711/>
+		<mercredi victimes=1589/>
+		<jeudi victimes=1651/>
+		<vendredi victimes=1658/>
+		<samedi victimes=2333/>
+		<dimanche victimes=2488/>
+	</cross>
+	<cross nom=Jobourg nb=5175>
+		<lundi victimes=2244/>
+		<mardi victimes=1696/>
+		<mercredi victimes=2261/>
+		<jeudi victimes=1814/>
+		<vendredi victimes=1643/>
+		<samedi victimes=3013/>
+		<dimanche victimes=3345/>
+	</cross>
+	<cross nom=La Garde nb=14882>
+		<lundi victimes=5036/>
+		<mardi victimes=4516/>
+		<mercredi victimes=5377/>
+		<jeudi victimes=5456/>
+		<vendredi victimes=4765/>
+		<samedi victimes=7536/>
+		<dimanche victimes=8012/>
+	</cross>
+	<cross nom=Étel nb=8532>
+		<lundi victimes=2618/>
+		<mardi victimes=2217/>
+		<mercredi victimes=2154/>
+		<jeudi victimes=2267/>
+		<vendredi victimes=2198/>
+		<samedi victimes=3356/>
+		<dimanche victimes=3389/>
+	</cross>
+	<cross nom=Corse nb=3795>
+		<lundi victimes=1406/>
+		<mardi victimes=1603/>
+		<mercredi victimes=1610/>
+		<jeudi victimes=1457/>
+		<vendredi victimes=1512/>
+		<samedi victimes=2014/>
+		<dimanche victimes=1366/>
+	</cross>
+	<cross nom=Guyane nb=42>
+		<lundi victimes=7/>
+		<mardi victimes=134/>
+		<mercredi victimes=9/>
+		<jeudi victimes=56/>
+		<vendredi victimes=6/>
+		<samedi victimes=5/>
+		<dimanche victimes=15/>
+	</cross>
+	<cross nom=Martinique nb=1383>
+		<lundi victimes=334/>
+		<mardi victimes=321/>
+		<mercredi victimes=753/>
+		<jeudi victimes=375/>
+		<vendredi victimes=372/>
+		<samedi victimes=509/>
+		<dimanche victimes=638/>
+	</cross>
+	<cross nom=Soulac nb=1352>
+		<lundi victimes=341/>
+		<mardi victimes=611/>
+		<mercredi victimes=358/>
+		<jeudi victimes=407/>
+		<vendredi victimes=381/>
+		<samedi victimes=474/>
+		<dimanche victimes=519/>
+	</cross>
+	<cross nom=Adge nb=654>
+		<lundi victimes=174/>
+		<mardi victimes=222/>
+		<mercredi victimes=184/>
+		<jeudi victimes=154/>
+		<vendredi victimes=205/>
+		<samedi victimes=311/>
+		<dimanche victimes=358/>
+	</cross>
+	<cross nom=Guadeloupe nb=0>
+		<lundi victimes=0/>
+		<mardi victimes=0/>
+		<mercredi victimes=0/>
+		<jeudi victimes=0/>
+		<vendredi victimes=0/>
+		<samedi victimes=0/>
+		<dimanche victimes=0/>
+	</cross>
+</liste-cross>
